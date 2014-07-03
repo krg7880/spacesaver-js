@@ -12,6 +12,7 @@
     "hiredis": "*"
   },
   "devDependencies": {
+    "mocha": "*"
   },
   "keywords": [
     "leaderboard"

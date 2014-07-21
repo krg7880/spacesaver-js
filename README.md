@@ -60,3 +60,6 @@ Test is broken since the switch to support
 internal queues. Prior to this, you needed
 to add a member one at a time. Now you 
 can pass a collection of memebers to increment! 
+
+#### Contribution
+Just fork and issue a pull request :-)

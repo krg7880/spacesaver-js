@@ -3,12 +3,12 @@ spacesaver-js
 
 Estimate [Top-k](https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf) elements in data stream using SpaceSaver algorithm. Backed by RedisDB
 
-Installation
-------------
+#### Installation
+
 npm install spacesaver-js
 
-Example usage
--------------
+#### Example usage
+
 ```javascript
 var SpaceSaver = require('./lib/');
 var k = 100;
@@ -48,14 +48,12 @@ spacesaver.add(leaderboad, members)
 ]
 ```
 
-Testing
--------
+#### Testing
 ```javascript
 npm test
 ```
 
-TODO 
-----
+#### TODO 
 Test is broken since the switch to support
 internal queues. Prior to this, you needed
 to add a member one at a time. Now you 

@@ -1,18 +1,18 @@
-var SpaceSaver = require('./lib/index');
+var SpaceSaver = require('./lib/queue');
 
 // Test Leaderboard
 var spacesaver = new SpaceSaver(100);
-var leaderboard = 'persons';
+var leaderboard = 'sites';
 
 var max = 10000;
 var count = 0;
-var value = 'www.google.com';
+var value = ['http://www.google.com'];
 
 function run() {
-  spacesaver.increment({leaderboard: leaderboard, value: value}, function(e, res) {
+  spacesaver.increment({leaderboard: leaderboard, values: value}).process(function(e, res) {
     if (++count >= max) {
-      spacesaver.leaders({leaderboard: leaderboard, k: 2}, function(e, res) {
-        console.log('leaders', e, res);
+      spacesaver.leaders({leaderboard: leaderboard}, function(e, res) {
+        console.log('leaders', res);
         process.exit();
       });
     }

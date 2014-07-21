@@ -1,7 +1,7 @@
 spacesaver-js
 =============
 
-Estimate [Top-k](https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf) elements in data stream using SpaceSaver algorithm. The project use [Redis](https://github.com/antirez/redis) as the backend. Note that this project is being actively developed. If you discover an issue, please fork or submit an issue. 
+Estimate [Top-k](https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf) elements in data stream using SpaceSaver algorithm. The project use [Redis](https://github.com/antirez/redis) as the backend. Note that this project is being actively developed. If you discover an issue, please fork or submit a ticket describing the problem. 
 
 #### Installation
 

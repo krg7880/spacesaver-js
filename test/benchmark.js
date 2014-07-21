@@ -1,9 +1,9 @@
 var SpaceSaver = require('../lib/');
 
 // Test Leaderboard
-var spacesaver = new SpaceSaver(8);
-var leaderboard = 'topsites11';
-var news_members = ['call-four'];
+var spacesaver = new SpaceSaver(10);
+var leaderboard = 'topsites';
+var news_members = ['www.nytimes.com', 'www.google.com', 'www.yahoo.com', 'www.cnn.com'];
 
 var max = 1;
 var count = 0;

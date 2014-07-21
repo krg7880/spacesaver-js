@@ -1,6 +1,6 @@
 {
   "name": "spacesaver-js",
-  "version": "0.0.1",
+  "version": "0.5.0",
   "description": "Estimate top K items in data stream using the SpaceSaver algorithm. Backed by Redis.",
   "main": "index.js",
   "repository": "git://github.com/kirk7880/spacesaver-js",
@@ -19,6 +19,9 @@
     ,"spacesaver"
     ,"top items"
     ,"frequency"
+    ,"heavy hitter"
+    ,"data streams"
+    ,"top-k"
   ],
   "author": "Kirk Gordon<kirk7880@gmail.com>",
   "license": "MIT"

@@ -1,7 +1,7 @@
 spacesaver-js
 =============
 
-Estimate top K elements in data stream using SpaceSaver algorithm. Backed by RedisDB
+Estimate [Top-k](https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.pdf) elements in data stream using SpaceSaver algorithm. Backed by RedisDB
 
 Installation
 ------------
@@ -38,5 +38,4 @@ TODO
 Test is broken since the switch to support
 internal queues. Prior to this, you needed
 to add a member one at a time. Now you 
-can pass a collection of memebers to increment
-in one shot! 
+can pass a collection of memebers to increment! 

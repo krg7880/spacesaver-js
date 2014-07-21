@@ -6,7 +6,7 @@ var leaderboard = 'topsites';
 var members = ['www.google.com', 'www.nytmes.com', 'www.yahoo.com', 'www.cnn.com'];
 var membersTwo = ['www.facebook.com', 'www.twitter.com', 'www.tumblr.com'];
 
-var max = 10000;
+var max = 1;
 var count = 0;
 
 function run() {
@@ -19,7 +19,7 @@ function run() {
         spacesaver.add(leaderboard, [leader]).increment(function(e, res) {
           spacesaver.leaders(leaderboard, null, function(e, res) {
             console.log('news', res);
-            spacesaver.leaders('social', null, function(e, res) {
+            spacesaver.leaders('social', 1, function(e, res) {
               console.log('social', res);
               process.exit();
             });

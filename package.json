@@ -1,6 +1,6 @@
 {
   "name": "spacesaver-js",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Estimate top K items in data stream using the SpaceSaver algorithm. Backed by Redis.",
   "main": "index.js",
   "repository": "git://github.com/kirk7880/spacesaver-js",

@@ -5,7 +5,7 @@ Estimate [Top-k](https://icmi.cs.ucsb.edu/research/tech_reports/reports/2005-23.
 
 #### Installation
 
-npm install spacesaver-js
+npm install [spacesaver-js](https://www.npmjs.org/package/spacesaver-js)
 
 #### Example usage
 

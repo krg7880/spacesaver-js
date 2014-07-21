@@ -1,4 +1,4 @@
-var SpaceSaver = require('./lib/');
+var SpaceSaver = require('../lib/');
 
 // Test Leaderboard
 var spacesaver = new SpaceSaver(100);

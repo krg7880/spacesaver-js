@@ -1,6 +1,6 @@
 {
   "name": "spacesaver-js",
-  "version": "0.0.1",
+  "version": "0.5.0",
   "dependencies": {
     "hiredis": {
       "version": "0.1.17",

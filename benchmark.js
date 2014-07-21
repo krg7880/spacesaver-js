@@ -9,9 +9,9 @@ var count = 0;
 var value = ['http://www.google.com'];
 
 function run() {
-  spacesaver.increment({leaderboard: leaderboard, values: value}).process(function(e, res) {
+  spacesaver.add({leaderboard: leaderboard, values: value}).increment(function(e, res) {
     if (++count >= max) {
-      spacesaver.leaders({leaderboard: leaderboard}, function(e, res) {
+      spacesaver.leaders(leaderboard, null, function(e, res) {
         console.log('leaders', res);
         process.exit();
       });

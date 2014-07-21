@@ -29,23 +29,17 @@ spacesaver.add(leaderboad, members)
 
 ```javascript
 // news - top k
-[ 'www.nytmes.com',
-  '240985',
-  'www.yahoo.com',
-  '240847',
-  'www.google.com',
-  '240365',
-  'www.cnn.com',
-  '170721',
-  'http://www.tumblr.com',
-  '10000' 
-]
+{ 'www.nytmes.com': '240988',
+  'www.yahoo.com': '240849',
+  'www.google.com': '240368',
+  'www.cnn.com': '170723',
+  'http://www.tumblr.com': '10000' 
+}
 
 // social - top 1 of k
-
-[ 
-	'www.twitter.com', '170721' 
-]
+{ 
+	'www.twitter.com': '170723' 
+}
 ```
 
 #### Testing

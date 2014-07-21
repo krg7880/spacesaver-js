@@ -28,7 +28,6 @@ spacesaver.add(leaderboad, members)
 ```
 
 ```javascript
-
 // news - top k
 [ 'www.nytmes.com',
   '240985',
@@ -47,6 +46,7 @@ spacesaver.add(leaderboad, members)
 [ 
 	'www.twitter.com', '170721' 
 ]
+```
 
 Testing
 -------
